@@ -1,4 +1,4 @@
-let arrowUpBtn = document.querySelector('.arrow_up_btn')
+let arrowUpBtn = document.querySelector('.arrow-up-btn')
 
 
 function showScrollUpBtn(){
@@ -27,8 +27,22 @@ function scrollUp(){
 arrowUpBtn.addEventListener('click', scrollUp)
 
 
-let radioButtons = document.querySelectorAll('.radio-label')
-let addBorderForCheckedRadio = function(checkedRadio){
-    checkedRadio.style.border = '1px solid #000'
-}
-radioButtons.forEach(el => el.addEventListener('click', addBorderForCheckedRadio(el)))
+let allCardBtn = document.querySelectorAll('.card__btn')
+let formPopUp = document.querySelector('.form-wrapper')
+let formCloseBtn = document.querySelector('.form__close-btn')
+let form = document.querySelector('.form')
+allCardBtn.forEach(el => {
+    el.addEventListener('click', ()=>{
+        formPopUp.style.display = 'block';
+        document.body.style.overflow = 'hidden'
+    })
+})
+formCloseBtn.addEventListener('click', ()=>{
+    formPopUp.style.display = 'none';
+    document.body.style.overflow = 'auto'
+})
+form.addEventListener('submit', ()=>{
+    formPopUp.style.display = 'none';
+    document.body.style.overflow = 'auto'
+    alert('Покупка совершена')
+})
