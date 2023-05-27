@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="assets/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap"
         rel="stylesheet">
     <title>Products</title>
@@ -19,7 +20,15 @@
             <li class="header__list__item"><a href="#sofas">Диваны</a></li>
             <li class="header__list__item"><a href="#tables">Столы</a></li>
             <li class="header__list__item"><a href="#doors">Двери</a></li>
+            <li class="header__list__item">
+                <div class="theme-switcher">
+                    <input type="checkbox" class="theme-switcher__input" id="theme-switcher-id">
+                    <label for="theme-switcher-id" class="theme-switcher__label">Светлая</label>
+                </div>
+            </li>
         </ul>
+        
+
     </header>
 
     <main class="main">
@@ -27,24 +36,24 @@
             <h2 class="category__title" id="lights">Светильники</h2>
             <div class="category__cards">
                 <div class="category__card">
-                    <h4 class="card__title">Товар</h4>
+                    <h4 class="card__title">DE FRAN Thaw GU5.3</h4>
                     <div class="card__info">
                         <img src="assets/Lights/light_1.jpg" alt="product" class="card__img">
                         <div class="card__added-text">
                             <span>Добавлено:</span>
-                            <span> 01.01.2000</span>
+                            <span class="card__date"></span>
                         </div>
                         <button type="button" class="card__btn">Купить</button>
                     </div>
                 </div>
 
                 <div class="category__card">
-                    <h4 class="card__title">Товар</h4>
+                    <h4 class="card__title">Trio GX53</h4>
                     <div class="card__info">
                         <img src="assets/Lights/light_2.jpg" alt="product" class="card__img">
                         <div class="card__added-text">
                             <span>Добавлено:</span>
-                            <span> 01.01.2000</span>
+                            <span class="card__date"></span>
                         </div>
                         <button type="button" class="card__btn">Купить</button>
                     </div>
@@ -52,12 +61,12 @@
                 </div>
 
                 <div class="category__card">
-                    <h4 class="card__title">Товар</h4>
+                    <h4 class="card__title">DE FRAN thuw GU5.3</h4>
                     <div class="card__info">
                         <img src="assets/Lights/light_3.jpg" alt="product" class="card__img">
                         <div class="card__added-text">
                             <span>Добавлено:</span>
-                            <span> 01.01.2000</span>
+                            <span class="card__date"></span>
                         </div>
                         <button type="button" class="card__btn">Купить</button>
                     </div>
@@ -65,12 +74,12 @@
                 </div>
 
                 <div class="category__card">
-                    <h4 class="card__title">Товар</h4>
+                    <h4 class="card__title">TANGO</h4>
                     <div class="card__info">
                         <img src="assets/Lights/light_4.jpg" alt="product" class="card__img">
                         <div class="card__added-text">
                             <span>Добавлено:</span>
-                            <span> 01.01.2000</span>
+                            <span class="card__date"></span>
                         </div>
                         <button type="button" class="card__btn">Купить</button>
                     </div>
@@ -78,12 +87,12 @@
                 </div>
 
                 <div class="category__card">
-                    <h4 class="card__title">Товар</h4>
+                    <h4 class="card__title">EGLO Fueva 5</h4>
                     <div class="card__info">
                         <img src="assets/Lights/light_5.jpg" alt="product" class="card__img">
                         <div class="card__added-text">
                             <span>Добавлено:</span>
-                            <span> 01.01.2000</span>
+                            <span class="card__date"></span>
                         </div>
                         <button type="button" class="card__btn">Купить</button>
                     </div>
@@ -91,75 +100,606 @@
                 </div>
 
                 <div class="category__card">
-                    <h4 class="card__title">Товар</h4>
+                    <h4 class="card__title">EGLO Fueva 1 Pro</h4>
                     <div class="card__info">
                         <img src="assets/Lights/light_6.jpg" alt="product" class="card__img">
                         <div class="card__added-text">
                             <span>Добавлено:</span>
-                            <span> 01.01.2000</span>
+                            <span class="card__date"></span>
                         </div>
                         <button type="button" class="card__btn">Купить</button>
                     </div>
                 </div>
                     <div class="category__card">
-                        <h4 class="card__title">Товар</h4>
+                        <h4 class="card__title">LED SPO</h4>
                         <div class="card__info">
                             <img src="assets/Lights/light_7.jpg" alt="product" class="card__img">
                             <div class="card__added-text">
                                 <span>Добавлено:</span>
-                                <span> 01.01.2000</span>
+                                <span class="card__date"></span>
                             </div>
                             <button type="button" class="card__btn">Купить</button>
                         </div>
                     </div>
 
                     <div class="category__card">
-                        <h4 class="card__title">Товар</h4>
+                        <h4 class="card__title">REV LED</h4>
                         <div class="card__info">
                             <img src="assets/Lights/light_8.jpg" alt="product" class="card__img">
                             <div class="card__added-text">
                                 <span>Добавлено:</span>
-                                <span> 01.01.2000</span>
+                                <span class="card__date"></span>
                             </div>
                             <button type="button" class="card__btn">Купить</button>
                         </div>
                     </div>
                     <div class="category__card">
-                        <h4 class="card__title">Товар</h4>
+                        <h4 class="card__title">ЭЛЕТЕХ</h4>
                         <div class="card__info">
                             <img src="assets/Lights/light_9.jpg" alt="product" class="card__img">
                             <div class="card__added-text">
                                 <span>Добавлено:</span>
-                                <span> 01.01.2000</span>
+                                <span class="card__date"></span>
                             </div>
                             <button type="button" class="card__btn">Купить</button>
                         </div>
                     </div>
                     <div class="category__card">
-                        <h4 class="card__title">Товар</h4>
+                        <h4 class="card__title">ВЭП СВЕТ</h4>
                         <div class="card__info">
                             <img src="assets/Lights/light_10.jpg" alt="product" class="card__img">
                             <div class="card__added-text">
                                 <span>Добавлено:</span>
-                                <span> 01.01.2000</span>
+                                <span class="card__date"></span>
                             </div>
                             <button type="button" class="card__btn">Купить</button>
                         </div>
                     </div>
 
                     <div class="category__card">
-                        <h4 class="card__title">Товар</h4>
+                        <h4 class="card__title">NAVIGATOR GU10</h4>
                         <div class="card__info">
                             <img src="assets/Lights/light_11.jpg" alt="product" class="card__img">
                             <div class="card__added-text">
                                 <span>Добавлено:</span>
-                                <span> 01.01.2000</span>
+                                <span class="card__date"></span>
                             </div>
                             <button type="button" class="card__btn">Купить</button>
                         </div>
                     </div>
             </div>
 
+        </section>
+        <section class="category">
+            <h2 class="category__title" id="sofas">Диваны</h2>
+            <div class="category__cards">
+                <div class="category__card">
+                    <h4 class="card__title">НЬЮ-ЙОРК</h4>
+                    <div class="card__info">
+                        <img src="assets/Sofas/Sofa_1.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">Комфорт</h4>
+                    <div class="card__info">
+                        <img src="assets/Sofas/Sofa_2.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">МИЛАН</h4>
+                    <div class="card__info">
+                        <img src="assets/Sofas/Sofa_3.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">Милк</h4>
+                    <div class="card__info">
+                        <img src="assets/Sofas/Sofa_4.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">Комо</h4>
+                    <div class="card__info">
+                        <img src="assets/Sofas/Sofa_5.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">Европа-2</h4>
+                    <div class="card__info">
+                        <img src="assets/Sofas/Sofa_6.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                    <div class="category__card">
+                        <h4 class="card__title">Портленд</h4>
+                        <div class="card__info">
+                            <img src="assets/Sofas/Sofa_7.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+
+                    <div class="category__card">
+                        <h4 class="card__title">Грация</h4>
+                        <div class="card__info">
+                            <img src="assets/Sofas/Sofa_8.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <h4 class="card__title">Фиджи</h4>
+                        <div class="card__info">
+                            <img src="assets/Sofas/Sofa_9.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <h4 class="card__title">Босфорт-2</h4>
+                        <div class="card__info">
+                            <img src="assets/Sofas/Sofa_10.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="category">
+            <h2 class="category__title" id="tables">Столы</h2>
+            <div class="category__cards">
+                <div class="category__card">
+                    <h4 class="card__title">РИМ</h4>
+                    <div class="card__info">
+                        <img src="assets/Tables/table_1.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">ДЕНВЕР</h4>
+                    <div class="card__info">
+                        <img src="assets/Tables/table_2.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">АМЕЛИС</h4>
+                    <div class="card__info">
+                        <img src="assets/Tables/table_3.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">ПОРТЛАНД</h4>
+                    <div class="card__info">
+                        <img src="assets/Tables/table_4.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">КОНСОЛЬ</h4>
+                    <div class="card__info">
+                        <img src="assets/Tables/table_5.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+
+                </div>
+
+                <div class="category__card">
+                    <h4 class="card__title">ВЕЛИНГТОН</h4>
+                    <div class="card__info">
+                        <img src="assets/Tables/table_6.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                    <div class="category__card">
+                        <h4 class="card__title">М86</h4>
+                        <div class="card__info">
+                            <img src="assets/Tables/table_7.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+
+                    <div class="category__card">
+                        <h4 class="card__title">М87</h4>
+                        <div class="card__info">
+                            <img src="assets/Tables/table_8.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <h4 class="card__title">LASKI</h4>
+                        <div class="card__info">
+                            <img src="assets/Tables/table_9.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <h4 class="card__title">Агами</h4>
+                        <div class="card__info">
+                            <img src="assets/Tables/table_10.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <h4 class="card__title">Палладио</h4>
+                        <div class="card__info">
+                            <img src="assets/Tables/table_11.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <h4 class="card__title">Альбано</h4>
+                        <div class="card__info">
+                            <img src="assets/Tables/table_12.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <h4 class="card__title">РИД-530</h4>
+                        <div class="card__info">
+                            <img src="assets/Tables/table_13.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <h4 class="card__title">Престон</h4>
+                        <div class="card__info">
+                            <img src="assets/Tables/table_14.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                    <div class="category__card">
+                        <h4 class="card__title">Бекс-450</h4>
+                        <div class="card__info">
+                            <img src="assets/Tables/table_15.jpg" alt="product" class="card__img">
+                            <div class="card__added-text">
+                                <span>Добавлено:</span>
+                                <span class="card__date"></span>
+                            </div>
+                            <button type="button" class="card__btn">Купить</button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="category">
+            <h2 class="category__title" id="doors">Двери</h2>
+            <div class="category__cards">
+                <div class="category__card">
+                    <h4 class="card__title">Альта ПГ 2</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_1.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">VERDA</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_2.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">ДПГ</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_3.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Венера ПГ</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_4.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Венера ПО</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_5.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Eco 4230</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_6.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Сафари</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_7.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Орион</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_8.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Альта 3</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_9.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Мадрид</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_10.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Дифорд</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_11.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">МЛ-17</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_12.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">МЛ-12</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_13.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Мирелла 2.0</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_14.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Арвика</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_15.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Перфекта</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_16.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Каролина L</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_17.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Винтер</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_18.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">Оптима</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_19.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+                <div class="category__card">
+                    <h4 class="card__title">АРГУС Престиж</h4>
+                    <div class="card__info">
+                        <img src="assets/Doors/door_20.jpg" alt="product" class="card__img">
+                        <div class="card__added-text">
+                            <span>Добавлено:</span>
+                            <span class="card__date"></span>
+                        </div>
+                        <button type="button" class="card__btn">Купить</button>
+                    </div>
+                </div>
+
+                </div>
         </section>
     </main>
 
@@ -202,7 +742,14 @@
     <!-- Кнопка скролла вверх -->
     <img src="assets/arrow_up.png" alt="arrow-up" class="arrow-up-btn"></img>
 
-    <footer></footer>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__list__item"><a href="#lights">Светильники</a></li>
+            <li class="footer__list__item"><a href="#sofas">Диваны</a></li>
+            <li class="footer__list__item"><a href="#tables">Столы</a></li>
+            <li class="footer__list__item"><a href="#doors">Двери</a></li>
+        </ul>
+    </footer>
 
     <script src="./index.js"></script>
 </body>
